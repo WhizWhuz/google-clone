@@ -1,0 +1,169 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo {
+    margin: 2em;
+    height: 8rem;
+
+}
+
+body {
+    background: #202124;
+    font-family: Arial, sans-serif;
+}
+
+
+
+  .searchbar {
+    margin: auto;
+    width: 25%;
+    border: 0.15rem solid rgb(139, 139, 139);
+    padding: 1rem;
+    padding-right: 25rem;
+    border-style: solid;    
+    border-radius: 2em;
+    margin-bottom: 2em;
+    background-image: url('search.svg');
+    background-repeat: no-repeat;
+    background-position-x: 0.7rem;
+    background-position-y: 0.4rem;
+    background-size: 35px;
+    color: white;
+    
+  }
+
+
+
+.container {
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    flex-direction: column;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 1em;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+    
+    
+}
+
+
+button {
+    background-color: rgb(0, 81, 255);
+    color: white;
+    padding: 1.5em;
+    margin: 1em;
+    margin-top: 1em;
+    filter: saturate(300%);
+    border: 0em;
+    border-radius: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    
+}
+
+button:hover {
+    background-color: rgb(132, 171, 255);
+
+}
+
+
+a {
+    color: white;
+    padding: 0.5em;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+a:link {
+    color: rgb(255, 255, 255)
+    
+
+}
+
+a:hover {
+    color: purple
+}
+
+a:active {
+    color: crimson;
+}
+
+.navbuttonleft {
+    color: white;
+    padding: 1em;
+    margin: 0.2em;
+    margin-top: 1em;
+    filter: saturate(300%);
+    cursor: pointer;
+
+    
+}
+
+.navbuttonright {
+    color: #ffffff;
+    padding: 1em;
+    margin: 0.2em;
+    margin-top: 1em;
+    filter: saturate(300%);
+    cursor: pointer;
+
+    
+}
+
+
+
+
+footer {
+    padding: 1.6vh;
+    margin-top: 15vh;
+    font-size: 16px;
+    color: black ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #262727;
+    width: 131.65rem;
+    height: 1.55rem;
+    margin-left: -1rem;
+    align-items: center;
+    align-content: center;
+}
+
+
+.android {
+    color: green;       
+    height: 30px;
+    margin-top: 2px;
+}
+
+
+.center {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 5rem;
+}
+
+.tree {
+    filter: invert(57%) sepia(82%) saturate(3754%) hue-rotate(87deg) brightness(126%) contrast(117%);
+}
